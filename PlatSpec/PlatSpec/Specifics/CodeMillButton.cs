@@ -7,8 +7,6 @@ namespace PlatSpec.iOSSpecific
 {
 	public static class CodeMillButton
 	{
-		//static Effect highlightEffect;
-
 		public static readonly BindableProperty ShowsTouchWhenHighlightedProperty =
 			BindableProperty.Create("ShowsTouchWhenHighlighted", typeof(bool), typeof(CodeMillButton), false, propertyChanging: ShowsTouchWhenHighlightedPropertyChanging);
 
